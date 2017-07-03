@@ -38,17 +38,13 @@ Public Class DescomponeFormulaIee
         Try
 
 
-            'Dim horainicio As DateTime = DateTime.Now
 
-            For indiceFila = 0 To dataModel.RowCount - 1
-                IterateColumnSearchingData(indiceFila, dataModel)
+
+            For rowINdex = 0 To dataModel.RowCount - 1
+                IterateColumnSearchingData(rowINdex, dataModel)
             Next
 
 
-
-            'Dim horaFin As DateTime = DateTime.Now
-            'Dim duracion = horaFin.Subtract(horainicio)
-            'MsgBox(duracion.ToString)
 
 
             Return dataModel
@@ -140,7 +136,9 @@ Public Class DescomponeFormulaIee
 
 
             Dim formulaexpression As Expression = dataModel.GetExpression(rowIndex, columnIndex)
-            DescomponerFormulaExpresion(formulaexpression)
+
+            '''''NEED HELP HERE
+            decomposeFormulaExpresion(formulaexpression)
 
             result = dataModel.EvaluateExpression(rowIndex, columnIndex, formulaexpression)
 
@@ -153,8 +151,11 @@ Public Class DescomponeFormulaIee
         Return result
     End Function
 
-
-    Private Sub DescomponerFormulaExpresion(formulaexpresion As Expression)
+    ''' <summary>
+    ''' I need Help here, how to evaluate formulas retuning objects with plus operator???
+    ''' </summary>
+    ''' <param name="formulaexpresion"></param>
+    Private Sub decomposeFormulaExpresion(formulaexpresion As Expression)
         Try
 
             Dim listaFormulas As New List(Of Expression)

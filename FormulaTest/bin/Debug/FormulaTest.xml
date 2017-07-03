@@ -22,5 +22,11 @@ FormulaTest
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:FormulaTest.DescomponeFormulaIee.decomposeFormulaExpresion(FarPoint.CalcEngine.Expression)">
+ <summary>
+ I need Help here, how to evaluate formulas retuning objects with plus operator???
+ </summary>
+ <param name="formulaexpresion"></param>
+</member>
 </members>
 </doc>

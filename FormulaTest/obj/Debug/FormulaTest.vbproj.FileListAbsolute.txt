@@ -1,5 +1,4 @@
 e:\documentos usuarios\melendezgl\mis documentos\visual studio 2015\Projects\FormulaTest\FormulaTest\bin\Debug\FormulaTest.exe.config
-e:\documentos usuarios\melendezgl\mis documentos\visual studio 2015\Projects\FormulaTest\FormulaTest\obj\Debug\FormulaTest.vbprojResolveAssemblyReference.cache
 e:\documentos usuarios\melendezgl\mis documentos\visual studio 2015\Projects\FormulaTest\FormulaTest\obj\Debug\FormulaTest.Resources.resources
 e:\documentos usuarios\melendezgl\mis documentos\visual studio 2015\Projects\FormulaTest\FormulaTest\obj\Debug\FormulaTest.vbproj.GenerateResource.Cache
 e:\documentos usuarios\melendezgl\mis documentos\visual studio 2015\Projects\FormulaTest\FormulaTest\obj\Debug\FormulaTest.Form1.resources
